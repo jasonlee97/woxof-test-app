@@ -12,3 +12,68 @@
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
+
+.navbar {
+	background-color: $navbar-bg;
+	.container {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+		> a {
+			color: $blue-text;
+			font-size: 26pt;
+		}
+		.nav-link {
+			color: $light-blue-text;
+			font-size: 18pt;
+		}
+	}
+}
+
+.welcome-body1 {
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url('/images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	.text-body {
+		margin-left: 20px;
+		width: 30%;
+		> h5, > p {
+			color: $light-blue-text;
+		}
+	}
+}
+
+.welcome-body2 {
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	.text-body1 {
+		width: 33%;
+		height: 300px;
+		float: left;
+	}
+	.text-body2 {
+		width: 33%;
+		height: 300px;
+		float: left;
+	}
+	.text-body3 {
+		width: 33%;
+		height: 300px;
+		float: left;
+	}
+	div {
+		padding: 32px;
+		h5, p {
+			color: $gray-text;
+		}
+	}
+}
+
+
+
