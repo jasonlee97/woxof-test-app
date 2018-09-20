@@ -10600,3 +10600,21 @@ a.text-dark:focus {
   color: #3F8BC5;
 }
 
+.home-banner {
+  height: 90px;
+  width: 100%;
+  background-image: url("/images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.home-banner h3 {
+  float: left;
+  padding: 25px;
+  color: #C7F6FE;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+

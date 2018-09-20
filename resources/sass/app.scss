@@ -126,5 +126,22 @@
 }
 
 
+// Home page
+.home-banner {
+	height: 90px;
+	width: 100%;
+	background-image: url('/images/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotateY(180deg); // Horizontally flip image
+	h3 {
+		float: left;
+		padding: 25px;
+		color: $light-blue-text;
+		transform: rotateY(180deg); // Horizontally flip again to bring it back to normal
+	}
+}
+
+
 
 
