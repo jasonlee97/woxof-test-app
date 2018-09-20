@@ -10618,3 +10618,35 @@ a.text-dark:focus {
           transform: rotateY(180deg);
 }
 
+.home-body {
+  padding: 30px;
+}
+
+.home-body label {
+  margin-top: 20px;
+  color: #898989;
+  font-size: 14pt;
+}
+
+.home-body input {
+  width: 50%;
+  padding: 8px;
+  border-radius: 0;
+  border: none;
+  background-color: #C7F6FE;
+  color: #898989;
+  font-size: 14pt;
+}
+
+.home-body button {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14pt;
+  border: none;
+  background-color: #417DC5;
+  color: #DCEFFF;
+}
+
